@@ -1,0 +1,78 @@
+body{
+    text-align:center;
+}
+
+/* Header */
+.nav-link{
+    color:white;
+}
+
+
+.navbar-class{
+    padding-left: 15%;
+    padding-right: 10%;
+    
+}
+.btn-cart{
+    margin-right: 0px;
+    margin-left: 30%;
+}
+.navbar-space{
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.nav-space{
+    margin-right: 20px;
+    color:white;
+}
+#head{
+    padding-top: 2%;
+    background-color: black;
+    
+}
+.title-logo{
+    font-size:3rem;
+    margin-left:5%;
+    color:white;
+}
+.navbar-nav{
+    --bs-nav-link-hover-color: rgb(167 162 162 / 80%);
+}
+
+/* Main Background Section */
+.bgimg{
+    
+    background-image: url('https://amymhaddad.s3.amazonaws.com/morocco-blue.png');
+    background-size: cover; /* Adjust for sizing */
+    background-repeat: no-repeat; /* Prevent repeating */
+    height: 45rem;
+    width: auto;
+}
+.bg-title{
+    position:relative;
+    top:15rem;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size: 4rem;
+    color: white;
+}
+.icon-star{
+    margin-top: 15%;
+    padding: 0  0.4%;
+}
+.bg-text{
+    color: white;
+    margin-top: 2%;
+}
+.bg-btn{
+    margin-top: 2%;
+}
+
+/* Categories */
+
+.category{
+    background-color: #263A29;
+    height: 45rem;
+    width: auto;
+}
