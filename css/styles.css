@@ -72,7 +72,46 @@ body{
 /* Categories */
 
 .category{
-    background-color: #263A29;
+    background-color: #f41a02;
+    height: 30rem;
+    width: auto;
+}
+
+.img-txt{
+    margin-top: 1.5rem;
+}
+.img-product{
+    margin-top: 3rem;
+    height: 20rem;
+    width: 12rem;
+}
+.experience{
+    background-color: #ffd905;
     height: 45rem;
     width: auto;
+}
+.details{
+    background-color: #05c5ff;
+    height: 45rem;
+    width: auto;
+}
+/*Experience*/
+
+.experience{
+    height: 28rem;
+    width: auto;
+}
+.img-double{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+/*Details & contact*/
+
+.detcontact{
+    background-color: #ff0576;
+    height: 45rem;
+    width: auto;
+}
+.img-only{
+    height: 10rem;
 }
