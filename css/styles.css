@@ -7,15 +7,18 @@ body{
     color:white;
 }
 
-
+.navbar-toggler{
+    background-color: white;
+}
 .navbar-class{
     padding-left: 15%;
-    padding-right: 10%;
+    padding-right: 25%;
     
 }
 .btn-cart{
-    margin-right: 0px;
-    margin-left: 30%;
+    position:relative;
+    left:13rem;
+    padding:2% 5% 2% 5%;
 }
 .navbar-space{
     margin-left: 5%;
@@ -38,8 +41,22 @@ body{
 }
 .navbar-nav{
     --bs-nav-link-hover-color: rgb(167 162 162 / 80%);
+    
 }
-
+.nav-link, .active{
+    color:white;
+}
+.nav-link.show {
+    color: white;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+    background-color: black;
+}
+.nav-search{
+    position:relative;
+    left:auto;
+}
 /* Main Background Section */
 .bgimg{
     
@@ -72,7 +89,77 @@ body{
 /* Categories */
 
 .category{
-    background-color: #263A29;
-    height: 45rem;
-    width: auto;
+    background-color: #f41a02;
+    /* height: rem;
+    width: auto; */
+}
+
+.img-txt{
+    margin-top: 1.5rem;
+}
+.img-product{
+    height: 20rem;
+    width: 12rem;
+}
+.product-img{
+    padding: 8rem 0 8rem 0;
+}
+.experience{
+    background-color: #ffd905;
+}
+
+/*Dining Experience*/
+
+.dining-div{
+    text-align:left;
+    padding:0 25rem 0 3rem;      
+}
+.dining{
+    padding: 15rem 0 20rem 0;
+}
+.img-double{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+/*Details & contact*/
+
+.detcontact{
+    background-color: #ff0576;
+}
+.img-only{
+    /* height: 10rem; */
+}
+.maindiv{
+    padding:10% 5% 10% 5%;
+    text-align: left;
+}
+.subdivs3{
+    padding:3% 0 3% 0;
+}
+
+/* Reserve */
+
+.bgimg-reserve{
+    
+    background-image: url('https://amymhaddad.s3.amazonaws.com/morocco-blue.png');
+    background-size: cover; /* Adjust for sizing */
+    background-repeat: no-repeat; /* Prevent repeating */
+    /* height: 45rem;
+    width: auto; */
+}
+.icon-star2{
+    margin-top: 2%;
+    padding: 0  0.4%;
+    margin-bottom: 6%;
+}
+.icon-star3{
+    margin: 7% auto 2% auto;
+    padding: 0  0.4%;
+}
+.reserve-btn{
+    margin:1% auto 2% auto;
+}
+.reserve-text{
+    padding: 0 27% 0 27%;
+    
 }
