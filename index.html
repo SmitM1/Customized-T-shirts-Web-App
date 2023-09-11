@@ -19,34 +19,45 @@
     <!-- Head -->
 
     <header id="head">
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg" style="position:-webkit-sticky;top:0;">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
                 <a class="navbar-brand title-logo" href="index.html">T-shirts</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-class navbar-class">
-                    <ul class="navbar-nav ms-auto">
-                        <div class="">
-                            <li class="nav-item nav-space">
-                                <a class="nav-link navig" href="">Customizable Products</a>
-                            </li>
-                        </div>
-                        <div class="">
-                            <li class="nav-space">
-                                <a class="nav-link navig" href="">About Us</a>
-                            </li>
-                        </div>
-                        <div class="">
-                            <li class="nav-space">
-                                <a class="nav-link navig" href="">Contact US</a>
-                            </li>
-                        </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="navbar-class collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item nav-space">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item nav-space">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown nav-space">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Customizable Products
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">T-shirts</a></li>
+                      <li><a class="dropdown-item" href="#">Pen</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Mugs</a></li>
+                      
                     </ul>
-                </div>
+                    <li class="nav-item nav-space">
+                        <a class="nav-link" aria-current="page" href="#">About Us</a>
+                      </li>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex nav-search" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
                 <button type="button" class="btn btn-outline-warning btn-lg btn-cart">Cart</button>
-            </nav>
-        </div>
+              </div>
+            </div>
+          </nav>
     </header>
 
     <!-- Main Background -->
@@ -64,21 +75,21 @@
 
     <section class="category">
         <div class="row">
-            <div class="product-img1 col col-lg-3 col-md-4 col-sm-6">
+            <div class="product-img col col-lg-3 col-md-4 col-sm-6">
                 <a href="" class="img-product"><img srcset="images/headphone.jpeg" class="img-product"></a>
-                <h3 class="img-txt">Headphones</h3>
+                <h3 class="img-txt text-white">Headphones</h3>
             </div>
-            <div class="product-img2 col col-lg-3 col-md-4 col-sm-6">
+            <div class="product-img col col-lg-3 col-md-4 col-sm-6">
                 <a href="" class="img-product"><img srcset="images/headphone.jpeg" class="img-product"></a>
-                <h3 class="img-txt">Headphones</h3>
+                <h3 class="img-txt text-white">Headphones</h3>
             </div>
-            <div class="product-img3 col col-lg-3 col-md-4 col-sm-6">
+            <div class="product-img col col-lg-3 col-md-4 col-sm-6">
                 <a href="" class="img-product"><img srcset="images/headphone.jpeg" class="img-product"></a>
-                <h3 class="img-txt">Headphones</h3>
+                <h3 class="img-txt text-white">Headphones</h3>
             </div>
-            <div class="product-img4 col col-lg-3 col-md-4 col-sm-6">
+            <div class="product-img col col-lg-3 col-md-4 col-sm-6">
                 <a href="" class="img-product"><img srcset="images/headphone.jpeg" class="img-product"></a>
-                <h3 class="img-txt">Headphones</h3>
+                <h3 class="img-txt text-white">Headphones</h3>
             </div>
         </div>
 
@@ -87,71 +98,113 @@
     <!-- Dinning experience -->
     
     <section class="experience">
-        <div>
-            <div class="img-double">
+        <div class="row dining">
+            <div class="img-double col col-lg-6 col-md-6 col-sm-12">
                 <a href=""><img srcset="images/cp.jpeg"></a>
-                <a href=""><img srcset="images/np.jpeg"></a>
             </div>
-            <div>
-                <h5>DINNING EXPERINENCE</h5>
-                <h1>FINNEST FRESH INGREDIENTS</h1>
-                <p>At delhi deluxe, we only use fresh ingredients and all our food is prepared daily to ensure you recieve the highest quality possible - try and see for yourself.</p>
-                <a href=""><h5>MORE ABOUT US</h5></a>
+            <div class="dining-div col col-lg-6 col-md-6 col-sm-12">
+                <h5 class="txtclr">DINNING EXPERINENCE</h5>
+                <h1 class="text-white">FINNEST FRESH INGREDIENTS</h1>
+                <p class="text-white">At delhi deluxe, we only use fresh ingredients and all our food is prepared daily to ensure you recieve the highest quality possible - try and see for yourself.</p>
+                <a href=""><h5 class="text-white">MORE ABOUT US</h5></a>
             </div>
         </div>
     </section>
 
     <!-- Contact & other details -->
+
     <section class="detcontact">
-        <div class="maindiv">
-            <div class="2subdivs">
+        <div class="maindiv row">
+            <div class="2subdivs col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="3details">
                     <div class="address">
-                        <h4>ADDRESS</h4>
-                        <p>23 Cartsburn street ,Greenock </p>
-                        <p>United Kingdom</p>
+                        <h4 class="txtclr">ADDRESS</h4>
+                        <p class="text-white">23 Cartsburn street ,Greenock </p>
+                        <p class="text-white">United Kingdom</p>
                     </div>
-                    <div class="reservation">
-                        <h4>RESERVATION</h4>
-                        <p>014 7572 4478 / 014 7572 4411</p>
-                        <p>info@delhideluxe.com</p>
-                    </div>
-                    <div class="openninghours">
-                        <h4>OPENNING HOURS</h4>
-                        <p>Lunch : Monday - Friday 12 pm to 3:30 pm</p>
-                        <p>Dinner: Monday - Saturday 4 pm to 11 pm</p>
-                        <p>Dinner: Sunday 4 pm to 10 pm</p>
+                    <div class="row subdivs3">
+                        <div class="reservation col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <h4 class="txtclr">RESERVATION</h4>
+                            <p class="text-white">014 7572 4478 / 014 7572 4411</p>
+                            <p class="text-white">info@delhideluxe.com</p>
+                        </div>
+                        <div class="openninghours col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <h4 class="txtclr">OPENNING HOURS</h4>
+                            <p class="text-white">Lunch : Monday - Friday 12 pm to 3:30 pm</p>
+                            <p class="text-white">Dinner: Monday - Saturday 4 pm to 11 pm</p>
+                            <p class="text-white">Dinner: Sunday 4 pm to 10 pm</p>
+                        </div>
                     </div>
                 </div>
-                <div class="2details">
-                    <div class="parkingdetails">
-                        <p>street parking after 7:00pm Monday to Saturday, feed the meter.</p>
-                        <p>Sunday free street parking.</p>
+                <div class="2details row ">
+                    <div class="parkingdetails col-lg-6 col-md-6 col-sm-12 col-xs-12 txtclr">
+                        <h4 class="txtclr">PARKING DETAILS</h4>
+                        <p class="text-white">street parking after 7:00pm Monday to Saturday, feed the meter.</p>
+                        <p class="text-white">Sunday free street parking.</p>
                     </div>
-                    <div class="publictransit">
-                        <p>Walking distance from Penn Station 34th Street Herald Square: B,D,F,M & N,Q,R 33rd street station 4,6.</p>
+                    <div class="publictransit col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <h4 class="txtclr">PUBLIC TRANSIT</h4>
+                        <p class="text-white">Walking distance from Penn Station 34th Street Herald Square: B,D,F,M & N,Q,R 33rd street station 4,6.</p>
                     </div>
                 </div>
             </div>
-            <div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col--xs-12">
                 <a href="" class="img-only"><img srcset="images/section4.jpeg" class="img-only"></a>
             </div>
         </div>
     </section>
-    <section class="reserve">
-        <div>
-            <h1 class="reserve-title">AN EXTRAORDINARY DINING EXPERIENCE</h1>
-            <i class="fa-solid fa-star icon-star" style="color: #c79259;"></i><i class="fa-solid fa-star icon-star" style="color: #c79259;"></i><i class="fa-solid fa-star icon-star" style="color: #c79259;"></i>
-            <h6 class="reserve-text">A UNIQUE REGIONAL HOME STYLE DINING EXPERIENCE</h6>
-            <button type="button" class="btn btn-outline-warning btn-lg bg-btn">BOOK A TABLE</button>
-            <i class="fa-solid fa-star icon-star" style="color: #c79259;"></i><i class="fa-solid fa-star icon-star" style="color: #c79259;"></i><i class="fa-solid fa-star icon-star" style="color: #c79259;"></i>
+
+    <!-- Reserve -->
+
+    <section id="reserve">
+        <div class="bgimg-reserve">
+            <i class="fa-solid fa-star icon-star3" style="color: #c79259;"></i><i class="fa-solid fa-star icon-star3" style="color: #c79259;"></i><i class="fa-solid fa-star icon-star3" style="color: #c79259;"></i>
+            <h1 class="reserve-title">MAKE A RESERVATION</h1>
+            <button type="button" class="btn btn-outline-warning btn-lg reserve-btn">BOOK A TABLE</button>
+            <h6 class="reserve-text">Walking distance from Penn Station 34th Street Herald Square: B,D,F,M & N,Q,R 33rd street station 4,6.Walking distance from Penn Station 34th Street Herald Square: B,D,F,M & N,Q,R 33rd street station 4,6.</h6>
+            <i class="fa-solid fa-star icon-star2" style="color: #c79259;"></i><i class="fa-solid fa-star icon-star2" style="color: #c79259;"></i><i class="fa-solid fa-star icon-star2" style="color: #c79259;"></i>
 
         </div>
     </section>
 
+    <!-- Footer -->
+
     <footer>
-
-
+        <div class="mainfooter">
+            <div class="5details row">
+                <div class="add col col-lg-3 col-md-4 col-sm-6 txtclr">
+                    <h5 class="txtclr">ADDRESS</h5>
+                    <p class="text-white">23 Cartsburn street ,Greenock</p>
+                </div>
+                <div class="email col col-lg-3 col-md-4 col-sm-6 txtclr">
+                    <h5 class="txtclr">EMAIL</h5>
+                    <p class="text-white">info@delhideluxe.com</p>
+                    <p class="text-white">014 7572 4478</p>
+                    <p class="text-white">014 7572 4411</p>
+                </div>
+                <div class="resrv col col-lg-3 col-md-4 col-sm-6 txtclr">
+                    <h5 class="txtclr">RESERVE</h5>
+                    <a href="" class="text-white">BOOK A TABLE</a>
+                </div>
+                <div class="follow col col-lg-3 col-md-4 col-sm-6 txtclr">
+                    <h5 class="txtclr">FOLLOW</h5>
+                    <a href=""> <img srcset=""></a>
+                    <a href=""><img srcset=""></a>
+                    <a href=""><img srcset=""></a>
+                </div>
+            </div>
+            <div class="footernavbar row">
+                <div class="copyright col col-lg-6 col-md-6 col-sm-12">
+                    <a href="" class="text-white">@2022 Delhi Deluxe. Created by Haarty Hanks</a>
+                </div>
+                <div class="links col col-lg-6 col-md-6 col-sm-12">
+                    <a href="" class="text-white">ABOUT US</a>
+                    <a href="" class="text-white">GROUP BOOKINGS</a>
+                    <a href="" class="text-white">GALLERY</a>
+                    <a href="" class="text-white">CONTACT US</a>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

@@ -1,21 +1,27 @@
 body{
     text-align:center;
 }
+.txtclr{
+    color: #B8621B;
+}
 
 /* Header */
 .nav-link{
     color:white;
 }
 
-
+.navbar-toggler{
+    background-color: white;
+}
 .navbar-class{
     padding-left: 15%;
-    padding-right: 10%;
+    padding-right: 25%;
     
 }
 .btn-cart{
-    margin-right: 0px;
-    margin-left: 30%;
+    position:relative;
+    left:13rem;
+    padding:2% 5% 2% 5%;
 }
 .navbar-space{
     margin-left: 5%;
@@ -38,8 +44,22 @@ body{
 }
 .navbar-nav{
     --bs-nav-link-hover-color: rgb(167 162 162 / 80%);
+    
 }
-
+.nav-link, .active{
+    color:white;
+}
+.nav-link.show {
+    color: white;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+    background-color: black;
+}
+.nav-search{
+    position:relative;
+    left:auto;
+}
 /* Main Background Section */
 .bgimg{
     
@@ -72,34 +92,36 @@ body{
 /* Categories */
 
 .category{
-    background-color: #f41a02;
-    height: 30rem;
-    width: auto;
+    background-color: #000000;
+    /* height: rem;
+    width: auto; */
 }
 
 .img-txt{
     margin-top: 1.5rem;
 }
 .img-product{
-    margin-top: 3rem;
     height: 20rem;
     width: 12rem;
 }
+.product-img{
+    padding: 8rem 0 8rem 0;
+}
 .experience{
     background-color: #ffd905;
-    height: 45rem;
-    width: auto;
 }
-.details{
-    background-color: #05c5ff;
-    height: 45rem;
-    width: auto;
-}
-/*Experience*/
 
+/*Dining Experience*/
 .experience{
-    height: 28rem;
-    width: auto;
+    background-color: #000000;
+}
+
+.dining-div{
+    text-align:left;
+    padding:0 25rem 0 3rem;      
+}
+.dining{
+    padding: 15rem 0 20rem 0;
 }
 .img-double{
     padding-top: 2rem;
@@ -108,10 +130,52 @@ body{
 /*Details & contact*/
 
 .detcontact{
-    background-color: #ff0576;
-    height: 45rem;
+    height: 40rem;
     width: auto;
+    background-color: #000000;
 }
-.img-only{
-    height: 10rem;
+
+.maindiv{
+    padding:0% 5% 20% 5%;
+    text-align: left;
+}
+.subdivs3{
+    padding:3% 0 3% 0;
+}
+
+/* Reserve */
+
+.bgimg-reserve{
+    
+    background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fpicjumbo.com%2Fwp-content%2Fuploads%2Famazing-stone-path-in-forest-free-photo.jpg&tbnid=YFcxC0f7lNiDfM&vet=12ahUKEwiJp9Dtxp2BAxUZa2wGHXEaClkQMygKegUIARCJAQ..i&imgrefurl=https%3A%2F%2Fpicjumbo.com%2Ffree-photos%2Fpure-nature%2F&docid=NJ6j8Zr_xdbJRM&w=5376&h=3584&q=images%20of%20nature&ved=2ahUKEwiJp9Dtxp2BAxUZa2wGHXEaClkQMygKegUIARCJAQ');
+    background-size: cover; /* Adjust for sizing */
+    background-repeat: no-repeat; /* Prevent repeating */
+    height: auto;
+    width: auto; 
+}
+.icon-star2{
+    margin-top: 2%;
+    padding: 0  0.4%;
+    margin-bottom: 6%;
+} 
+.icon-star3{
+    margin: 7% auto 2% auto;
+    padding: 0  0.4%;
+}
+.reserve-btn{
+    margin:1% auto 2% auto;
+}
+.reserve-text{
+    padding: 0 27% 0 27%;
+    
+}
+/* FOOTER */
+.mainfooter{
+    background-color: #000000;
+}
+.copyright{
+    padding-right: 30%;
+}
+.links{
+    padding-left: 27%;
 }
