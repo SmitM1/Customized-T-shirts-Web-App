@@ -1,26 +1,39 @@
 body{
     text-align:center;
 }
-
+.txtclr{
+    color: #B8621B;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+pre{
+    margin-bottom: 0;
+}
 /* Header */
 .nav-link{
     color:white;
+    /* padding: auto 2% auto 5%;  */
 }
 
-
+.navbar-toggler{
+    background-color: white;
+}
 .navbar-class{
-    padding-left: 15%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 25%;
     
 }
 .btn-cart{
-    margin-right: 0px;
-    margin-left: 30%;
+    position:relative;
+    left:13rem;
+    padding:2% 5% 2% 5%;
 }
 .navbar-space{
     margin-left: 5%;
     margin-right: 5%;
-    
+    /* padding: auto % auto 5%;  */
 }
 .nav-space{
     margin-right: 20px;
@@ -38,25 +51,65 @@ body{
 }
 .navbar-nav{
     --bs-nav-link-hover-color: rgb(167 162 162 / 80%);
-}
-
-/* Main Background Section */
-.bgimg{
     
-    background-image: url('https://amymhaddad.s3.amazonaws.com/morocco-blue.png');
+}
+.nav-link, .active{
+    color:white;
+}
+.nav-link.show {
+    color: white;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+    background-color: black;
+}
+.nav-search{
+    position:relative;
+    left:auto;
+}
+/* Main Background Section */
+.main-background{
+    padding: 0 auto 5rem auto;
+}
+.bgimg{
+    background-image: url('../images/t-shirt.jpg'); /* Update with your image file path */
     background-size: cover; /* Adjust for sizing */
     background-repeat: no-repeat; /* Prevent repeating */
-    height: 45rem;
-    width: auto;
+    height:45rem;
+    width:auto;
+}
+.bg-img-tshirt{
+    padding:5% 0 5% 0;
+    background-image: url('../images/t-shirt.jpg'); /* Update with your image file path */
+    background-size: cover; /* Adjust for sizing */
+    background-repeat: no-repeat; /* Prevent repeating */
+    
+}
+.path{
+    font-size: 1.5rem;
+    display:flex;
+    align-items: center;
+    padding:2% 0 0 3%;
+    margin-left: 1%;
 }
 .bg-title{
-    position:relative;
+
+    /* padding-right: 80%; */
+    position: relative;
     top:15rem;
-    padding-left: 30%;
-    padding-right: 30%;
+    padding-left:30%;
+    padding-right:30%;
     font-size: 4rem;
     color: white;
 }
+.bg-tshirt{
+    padding-right: 80%;
+    font-size: 4rem;
+    color: white;
+}
+.bg-tshirt-black{padding-right: 70%;
+    font-size: 4rem;
+    color: white;}
 .icon-star{
     margin-top: 15%;
     padding: 0  0.4%;
@@ -72,7 +125,204 @@ body{
 /* Categories */
 
 .category{
-    background-color: #263A29;
-    height: 45rem;
-    width: auto;
+    background-color: #000000;
+    /* height: rem;
+    width: auto; */
+}
+.dropdown{
+    list-style: none;
+}
+.img-txt{
+    margin-top: 1.5rem;
+}
+.img-txt-tshirt{/* margin-top: 1.5rem; */font-size: 1.2rem; text-align: left; padding-left: 4%;}
+.img-txt-tshirt i{padding-left:55%;}
+.img-product{
+    /* height: 20rem;
+    width: 12rem; */
+}
+.product-img{
+    padding: 4rem 0 8rem 0;
+}
+.product-img-tshirt{padding: 4rem 0 0rem 0;}
+.product-img a img {width: 100%; height: auto; background-color: #6f6c6a;border: 1rem solid #000000; ;}
+.product-img-tshirt a img {width: 100%; height: auto; background-color: #6f6c6a;border: 1rem solid #000000; ;}
+.experience{
+    background-color: #ffd905;
+}
+
+/* Products */
+
+.filter{
+    /* display:inline-block; */
+    margin-left: 4%;
+    margin-right: 80%;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+    text-align: center;
+    
+}
+.product-row1{
+    margin-left: 4%;
+    margin-right: 4%;
+    border-top: 1px solid GREY;
+    
+}
+.product-row2{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.product-row3{
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-bottom: 10%;
+    border-bottom: 1px solid GREY;
+
+    /* margin-bottom:20%; */
+}
+
+.btn-custom{
+    color:white;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top:2%;
+}
+
+/* Customize & buy */
+.img-black img{width: 80%; height: auto;padding: 11% 20% 11% 20%;background-color: #6f6c6a;}
+.img-black{padding:4rem 0rem 0rem 0rem;}
+.black{padding-bottom: 8rem;margin-right: 5%;margin-left: 0px;}
+#radioNoLabel1{background-color: #f00;border: var(--bs-border-width) solid #ed0808;}
+#radioNoLabel2{background-color: #0100f2;border: var(--bs-border-width) solid #071ee2;}
+#radioNoLabel3{background-color: #000;border: var(--bs-border-width) solid #ffffff;}
+#radioNoLabel4{background-color: #06ff00;border: var(--bs-border-width) solid #10ff00;}
+#radioNoLabel5{background-color: #f6fa00;border: var(--bs-border-width) solid #fbff00;}
+#radioNoLabel6{background-color: #fff;border: var(--bs-border-width) solid #5b5353}
+#radioNoLabel7{background-color: #fa00f0;border: var(--bs-border-width) solid #fa0df9;}
+#radioNoLabel8{background-color: #7e7676;border: var(--bs-border-width) solid #5b5353;}
+/* .txt-black{position:absolute;left:45%;bottom: 9rem;text-align: left;} */
+.txt-black{text-align: left;padding-top: 3.5%;}
+/*Dining Experience*/
+.experience{
+    background-color: #000000;
+}
+
+.dining-div{
+    text-align:left;
+    padding:0 25rem 0 3rem;     
+    padding-bottom: 1%; 
+}
+.dining{
+    padding: 15rem 0 10rem 0;
+
+}
+.img-double{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.about-us{
+    /* border-bottom: #B8621B; */
+    border-bottom: 1px solid #B8621B;
+    padding-bottom: 1%;
+}
+/*Details & contact*/
+
+.detcontact{
+    /* height: 40rem;
+    width: auto; */
+    background-color: #000000;
+}
+
+.maindiv{
+    padding:0% 5% 0% 5%;
+    text-align: left;
+}
+.subdivs2{
+    padding-top: 3%;
+    padding-bottom: 15%;
+    border-top: 1px solid #B8621B;
+    
+}
+.details3{
+    border-bottom: 1px solid #B8621B;
+}
+.subdivs3{
+    padding:3% 0 3% 0;
+}
+.details2{
+    padding-top: 5%;
+}
+/* Reserve */
+
+.bgimg-reserve{
+    
+    background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fpicjumbo.com%2Fwp-content%2Fuploads%2Famazing-stone-path-in-forest-free-photo.jpg&tbnid=YFcxC0f7lNiDfM&vet=12ahUKEwiJp9Dtxp2BAxUZa2wGHXEaClkQMygKegUIARCJAQ..i&imgrefurl=https%3A%2F%2Fpicjumbo.com%2Ffree-photos%2Fpure-nature%2F&docid=NJ6j8Zr_xdbJRM&w=5376&h=3584&q=images%20of%20nature&ved=2ahUKEwiJp9Dtxp2BAxUZa2wGHXEaClkQMygKegUIARCJAQ');
+    background-size: cover; /* Adjust for sizing */
+    background-repeat: no-repeat; /* Prevent repeating */
+    height: auto;
+    width: auto; 
+}
+.icon-star2{
+    margin-top: 2%;
+    padding: 0  0.4%;
+    margin-bottom: 6%;
+} 
+.icon-star3{
+    margin: 11% auto 2% auto;
+    padding: 0  0.4%;
+}
+.reserve-btn{
+    margin:1% auto 2% auto;
+}
+.reserve-text{
+    padding: 0 27% 0 27%;
+    
+}
+
+/* FOOTER */
+
+.mainfooter{
+    background-color: #000000;
+    padding: 4% 0 0 0;
+}
+.copyright{
+    padding-right: 30%;
+}
+.links{
+    /* padding-left: 2%; */
+    padding-right: 0px;
+    padding-left: 22%;
+}
+.footernavbar{
+    padding: 2% 0 2% 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-top: 1px solid #6f6c6a;
+    /* padding-bottom: 1%; */
+}
+.footer-text{
+    padding: 2% 0 0 0;
+}
+.details5{
+    padding-bottom: 2%;
+}
+.footer-p{
+    margin-bottom:0px;
+}
+.footer-icon{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.footer-links{
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}
+
+/* Filter t-shirts */
+
+@media (max-width: 992px){
+    .filter{
+        margin-right: 0;
+    }
 }
